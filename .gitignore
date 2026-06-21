@@ -1,0 +1,19 @@
+# --- Python Dependencies & Virtual Environments ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+ENV/
+
+# --- ESP-IDF Build Artifacts ---
+firmware/build/
+firmware/sdkconfig
+firmware/sdkconfig.old
+.devcontainer/
+
+# --- Editor & System Files ---
+.vscode/
+.DS_Store
+Thumbs.db
